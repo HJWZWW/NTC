@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 log/
+results/
 history/
 .DS_Store
 .vscode/
