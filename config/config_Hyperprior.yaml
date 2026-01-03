@@ -1,0 +1,24 @@
+exp_tag: 'Hyperprior'
+
+train_data_dir: ['/media/Dataset/openimages_256x256/train/train']
+test_data_dir: ['/media/D/Dataset/kodak/']
+num_workers: 8
+print_step: 20
+plot_step: 1000
+
+gpu_id: 1
+batch_size: 100
+epoch: 100
+lr: 0.00008
+aux_lr: 0.00005
+
+lambda: 10 
+distortion_metric: MSE
+
+use_pretrained: False
+checkpoint: /media/D/wangchangshuo/TCOM2026/history/Hyperprior_10_2025-12-25_11_07_08/checkpoints/epoch100_best_loss.model
+cur_epoch: 0
+
+
+M: 320 # 192 or 320
+N: 192
