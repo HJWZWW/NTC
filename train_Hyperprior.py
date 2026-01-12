@@ -62,7 +62,7 @@ def train_Hyperprior():
         is_best = loss < best_loss
         best_loss = min(loss, best_loss)
         if is_best:
-            print('Best Model!')
+            logger.info('Best Model!')
             save_model(model, save_path=workdir + '/checkpoints/epoch{}_best_loss.model'.format(epoch + 1))
         if (epoch + 1) % 1 == 0:
             save_model(model, save_path=workdir + '/checkpoints/epoch{}.model'.format(epoch + 1))

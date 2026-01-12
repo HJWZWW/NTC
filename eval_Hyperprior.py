@@ -1,4 +1,3 @@
-import os
 from utils.utils import *
 from datasets.datasets import get_loader, get_test_loader
 from datetime import datetime

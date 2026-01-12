@@ -28,3 +28,5 @@ python eval_Hyperprior.py
 
 目前仅支持 PSNR（Peak Signal-to-Noise Ratio，峰值信噪比）作为图像质量的评价指标，用于训练和测试。可以根据需求，扩展加入 MS-SSIM、LPIPS 等指标，可以在 `loss/distiontion.py` 文件内进行扩展。
 
+## 学习文档
+关于 NTC 和 NTSCC 的入门教程已经放在 `doc/` 目录下，之后可能会随时更新。
